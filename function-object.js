@@ -89,3 +89,39 @@ switch (dilam) {
         console.log("Hi' ami khalli balli")
         break;
 }
+
+// break in loop
+
+var i = 0;
+while (i <= 10) {
+    console.log(i);
+    if (i == 6) {
+        break
+    }
+    i++;
+}
+for (var i = 0; i <= 20; i++) {
+    console.log(i)
+    if (i == 15) {
+        break
+    }
+}
+
+// break in Array 
+
+var onekKisu = [34, 54, 54, 45, 55, 85, 554, 55, 65];
+// for (var i = 0; i < onekKisu.length; i++) {
+//     var sob = onekKisu[i];
+//     console.log(sob);
+//     if (i > 50) {
+//         break
+//     }
+// }
+
+for (var i = 0; i < onekKisu.length; i++) {
+    var sobgula = onekKisu[i];
+    if (sobgula > 55) {
+        continue
+    }
+    console.log(sobgula);
+}
