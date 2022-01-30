@@ -15,10 +15,10 @@ var total = add(5, 2, 6);
 console.log(total);
 
 // namta 
-
+var namta = 13;
 for (var i = 1; i <= 10; i++) {
-    var namta = 13 * i;
-    console.log(namta)
+    var namtaho = namta * i;
+    console.log(namtaho);
 }
 
 // chito htaer banate hobe 
@@ -125,3 +125,4 @@ for (var i = 0; i < onekKisu.length; i++) {
     }
     console.log(sobgula);
 }
+
